@@ -1,0 +1,5 @@
+(A) Support unified ~/Sites monorepo subpath provenance and GitOps dispatch in nixos-core +sites @nixos-core
+(B) Consolidate remaining ~/Sites workloads into kiskaadee/canopy-workloads and isolate remaining data dirs to ~/var/lib/homelab +sites @workloads
+(B) Retire deprecated dynu-monitor and ddclient units in nixos/modules/dynu.nix +ddns @nixos-core
+(C) Integrate canopy-homelab/ddns-monitor for production Cloudflare WAN IP updates +ddns @ddns-monitor
+x 2026-11-16 (A) Complete dual-account operator cutover, Gitea state isolation, and Canopy org provisioning +p4 @canopy
